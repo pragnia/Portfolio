@@ -2,8 +2,6 @@
 
 This is my personal portfolio website showcasing my projects, skills, and experience as a Software Engineer.
 
-🌐 **Live Website**:  
-https://pragnia.github.io/Portfolio/
 
 ---
 
