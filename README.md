@@ -31,7 +31,6 @@ https://pragnia.github.io/Portfolio/
 - **Smart Street Light System**
 - **Portfolio Website**
 
-(Links available on the website)
 
 ---
 
@@ -39,7 +38,7 @@ https://pragnia.github.io/Portfolio/
 
 - Email: pragnia12@gmail.com  
 - GitHub: https://github.com/pragnia  
-- LinkedIn: (add your link)
+- LinkedIn: [(add your link)](https://www.linkedin.com/in/p-pragnia)
 
 ---
 
