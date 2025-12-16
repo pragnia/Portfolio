@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pragnia | Software Engineer</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-logo">Pragnia Prathapagiri</div>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#" id="contactBtn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <span class="status">● Open to Opportunities</span>
+
+      <h2>
+        Building scalable software,<br>
+        solving real-world problems<br>
+        with clean and reliable code.
+      </h2>
+
+      <p>
+        <strong>SDE at Accenture</strong> with 1+ year of experience in
+        enterprise application development across <strong>Salesforce</strong>,
+        <strong>Oracle</strong>, and backend systems. Skilled in
+        <strong>Python</strong>, <strong>SQL</strong>, <strong>FastAPI</strong>,
+        <strong>Apex</strong>, <strong>LWC</strong>, and <strong>SOQL</strong>,
+        with hands-on exposure to <strong>Generative AI</strong> and
+        <strong>LLMs</strong>.<br>
+        <strong>Ex-Bosch intern</strong> and
+        <strong>National Hackathon Winner</strong>
+      </p>
+
+      <a href="#projects" class="btn">View my work</a>
+      <a href="resume.pdf" download class="btn outline">Download Resume</a>
+    </div>
+
+    <div class="hero-right">
+      <img src="profile.jpeg" alt="Pragnia Profile">
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section light" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>Python</span>
+      <span>FastAPI</span>
+      <span>Salesforce (Apex, LWC)</span>
+      <span>SOQL</span>
+      <span>SQL / PL-SQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Git & GitHub</span>
+      <span>OOP</span>
+      <span>Data Structures</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section dark" id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/rag.png" alt="RAG Project">
+        <h3>RAG-Based Knowledge Assistant</h3>
+        <p>
+          Built a Retrieval-Augmented Generation system using LangChain
+          and sentence-transformer embeddings.
+        </p>
+        <span class="tag">Python</span>
+        <span class="tag">LangChain</span>
+        <span class="tag">LLM</span>
+        <a
+          href="https://github.com/pragnia/chat-with-pdf"
+          target="_blank"
+          class="project-link"
+          aria-label="View GitHub Repository"
+        >
+          GH View Code
+        </a>
+      </div>
+
+
+      <div class="project-card">
+        <img src="images/portfolio.png" alt="Portfolio">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive portfolio with modern dark UI and animations.</p>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">UI</span> <br>
+
+        <a href="https://github.com/YOUR_GITHUB/portfolio"
+          target="_blank"
+          class="project-link">GH View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>EV Battery Fault Prediction</h3>
+        <p>ANN-based fault diagnosis system analyzing 100k+ data points.</p>
+        <span class="tag">ANN</span>
+        <span class="tag">Python</span> <br>
+
+        <a href="https://data.mendeley.com/datasets/t42ynjk936/1"
+          target="_blank"
+          class="project-link">View Paper</a>
+
+      </div>
+
+      <div class="project-card">
+        <img src="images/smart_street_light.jpeg" alt="IoT Project">
+        <h3>Smart Street Light System</h3>
+        <p>Arduino + LDR based automated street lighting.</p>
+        <span class="tag">Arduino</span>
+        <span class="tag">IoT</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING SOCIAL -->
+  <div class="social-float">
+    <a href="mailto:pragnia12@gmail.com" class="sf email">✉</a>
+    <a href="https://www.linkedin.com/in/p-pragnia" target="_blank" class="sf linkedin">in</a>
+    <a href="https://github.com/pragnia" target="_blank" class="sf github">GH</a>
+  </div>
+
+  <!-- CONTACT MODAL -->
+  <div class="contact-modal" id="contactModal">
+    <div class="contact-box">
+      <button class="close-btn" id="closeContact">×</button>
+      <h3>Contact Me</h3>
+
+      <div class="contact-options">
+        <a href="mailto:pragnia12@gmail.com" class="c-item">✉ Email</a>
+        <a href="https://www.linkedin.com/in/p-pragnia" target="_blank" class="c-item">in LinkedIn</a>
+        <a href="https://github.com/pragnia" target="_blank" class="c-item">GH GitHub</a>
+        <a href="resume.pdf" download class="c-item resume">⬇ Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p> Pragnia Prathapagiri</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
